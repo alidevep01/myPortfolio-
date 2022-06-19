@@ -6,10 +6,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mohammad Ali's Portfolio Website</title>
-    <!-- CSS FILES -->
+    <!-- ===== CSS Files ===== -->
     <link rel="stylesheet" href="/css/styles.css">
-    <link rel="stylesheet" href="/css/skins/color-1.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+    <!-- ===== Style Switcher ===== -->
+    <link rel="stylesheet" href="/css/skins/color-1.css" class="alternate-style" title="color-1">
+    <link rel="stylesheet" href="/css/skins/color-2.css" class="alternate-style" title="color-2" disabled>
+    <link rel="stylesheet" href="/css/skins/color-3.css" class="alternate-style" title="color-3" disabled>
+    <link rel="stylesheet" href="/css/skins/color-4.css" class="alternate-style" title="color-4" disabled>
+    <link rel="stylesheet" href="/css/skins/color-5.css" class="alternate-style" title="color-5" disabled>
+    <link rel="stylesheet" href="css/style-switcher.css">
+
+</head>
 
 <body>
 
@@ -25,30 +34,31 @@
                 <span></span>
             </div>
             <ul class="nav">
-                <li><a href="#" class="active"><i class="fa fa-home"></i> Home </a></li>
-                <li><a href="#"><i class="fa fa-user"></i> About </a></li>
-                <li><a href="#"><i class="fa fa-list"></i> Services </a></li>
-                <li><a href="#"><i class="fa fa-briefcase"></i> Portfolios </a></li>
-                <li><a href="#"><i class="fa fa-comments"></i> Contact </a></li>
+                <li><a href="#home" class="active"><i class="fa fa-home"></i> Home </a></li>
+                <li><a href="#about"><i class="fa fa-user"></i> About </a></li>
+                <li><a href="#services"><i class="fa fa-list"></i> Services </a></li>
+                <li><a href="#projects"><i class="fa fa-briefcase"></i> Portfolios </a></li>
+                <li><a href="#contact"><i class="fa fa-comments"></i> Contact </a></li>
             </ul>
         </div>
         <!-- ===== Aside End ===== -->
         <!-- ===== Main Content Start ===== -->
         <div class="main-content">
             <!-- ===== Home Section Start ===== -->
-            <section class="home section hidden">
+            <section class="home section" id="home">
                 <div class="container">
                     <div class="row">
-                        <div class="home-info padd-15">
+                        <div class="home-info padd-30">
                             <h3 class="hello">Hello, My name is <span class="name">Mohammad Ali</span> </h3>
                             <h3 class="my-profession">I' m a <span class="typing"> Software Engineer</span> </h3>
-                            <p>I'm a Software Engineer with 1 year of experience is Front-End. I have extensive knowledge of
+                            <p>I'm a Software Engineer with 1 year of experience is Front-End. I have extensive
+                                knowledge of
                                 HTML5, CSS3, BOOTSTRAP3,
                                 JAVASCRIPT, JQUERY and NODEJS.
                             </p>
                             <a href="#contact" class="btn hire-me"> Hire Me</a>
                         </div>
-                        <div class="home-img padd-15">
+                        <div class="home-img padd-30">
                             <img src="/images/my-pic.jpg" alt="Mohammad-Ali-Image">
                         </div>
                     </div>
@@ -56,153 +66,178 @@
             </section>
             <!-- ===== Home Section End ===== -->
 
-             <!-- ===== About Section Start ===== -->
-           <section class="about section hidden">
-            <div class="container">
-                <div class="row">
-                    <div class="section-title padd-15">
-                        <h2>About Me</h2>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="about-content padd-15">
-                        <div class="row">
-                            <div class="about-text padd-15">
-                                <h3>I'm Mohammad Ali and <span>Web Developer</span></h3>
-                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed quam odio blanditiis voluptatum autem reiciendis cumque? Harum quaerat ipsa obcaecati nemo debitis inventore pariatur quod, molestias deleniti eligendi voluptate vel. Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis ab harum nihil deleniti. Perspiciatis deleniti corporis tenetur similique atque, accusantium facere explicabo ullam ea repellendus, laborum, officia ipsam! Nobis, temporibus!</p>
-                            </div>
+            <!-- ===== About Section Start ===== -->
+            <section class="about section" id="about">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title padd-30">
+                            <h2>About Me</h2>
                         </div>
-                        <div class="row">
-                            <div class="personal-info padd-15">
-                                <div class="row">
-                                    <div class="info-item padd-15">
-                                        <p>Website: <span>Under Construction</span></p>
-                                    </div>
-                                    <div class="info-item padd-15">
-                                        <p>Education: <span>Masters In Computer Science</span></p>
-                                    </div>
-                                    <div class="info-item padd-15">
-                                        <p>University: <span>Lamar University</span></p>
-                                    </div>
-                                    <div class="info-item padd-15">
-                                        <p>Location: <span>Houston, Texas, USA</span></p>
-                                    </div>
-                                    <div class="info-item padd-15">
-                                        <p>Email: <span>Mohammadali0326@gmail.com</span></p>
-                                    </div>
-                                    <div class="info-item padd-15">
-                                        <p>Phone No: <span>+1 832-335-6277</span></p>
-                                    </div>
+                    </div>
+                    <div class="row">
+                        <div class="about-content padd-30">
+                            <div class="row">
+                                <div class="about-text padd-30">
+                                    <h3>I'm Mohammad Ali and <span>Web Developer</span></h3>
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed quam odio
+                                        blanditiis voluptatum autem reiciendis cumque? Harum quaerat ipsa obcaecati nemo
+                                        debitis inventore pariatur quod, molestias deleniti eligendi voluptate vel.
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis ab harum
+                                        nihil deleniti. Perspiciatis deleniti corporis tenetur similique atque,
+                                        accusantium facere explicabo ullam ea repellendus, laborum, officia ipsam!
+                                        Nobis, temporibus!</p>
                                 </div>
-                                <div class="row">
-                                    <div class="buttons padd-15">
-                                        <a href="#" class="btn"> Download Resume</a>
-                                        <a href="#contact" class="btn hire-me"> Hire Me</a>
+                            </div>
+                            <div class="row">
+                                <div class="personal-info padd-30">
+                                    <div class="row">
+                                        <div class="info-item padd-30">
+                                            <p>Website: <span>Under Construction</span></p>
+                                        </div>
+                                        <div class="info-item padd-30">
+                                            <p>Education: <span>Masters In Computer Science</span></p>
+                                        </div>
+                                        <div class="info-item padd-30">
+                                            <p>University: <span>Lamar University</span></p>
+                                        </div>
+                                        <div class="info-item padd-30">
+                                            <p>Location: <span>Houston, Texas, USA</span></p>
+                                        </div>
+                                        <div class="info-item padd-30">
+                                            <p>Email: <span>Mohammadali0326@gmail.com</span></p>
+                                        </div>
+                                        <div class="info-item padd-30">
+                                            <p>Phone No: <span>+1 832-335-6277</span></p>
+                                        </div>
                                     </div>
-                                </div>
+                                    <div class="row">
+                                        <div class="buttons padd-30">
+                                            <a href="#" class="btn"> Download Resume</a>
+                                            <a href="#contact" class="btn hire-me"> Hire Me</a>
+                                        </div>
+                                    </div>
 
-                            </div>
-                            <div class="skills padd-15">
-                                <div class="row">
-                                    <div class="skill-item padd-15">
-                                        <h5>HTML5</h5>
-                                        <div class="progress">
-                                            <div class="progress-in" style="width: 95%;"></div>
-                                            <div class="skill-precentage"></div>
-                                        </div>
-                                    </div>
-                                    <div class="skill-item padd-15">
-                                        <h5>CSS3</h5>
-                                        <div class="progress">
-                                            <div class="progress-in" style="width: 82%;"></div>
-                                            <div class="skill-precentage"></div>
-                                        </div>
-                                    </div>
-                                    <div class="skill-item padd-15">
-                                        <h5>BOOTSTRAP3</h5>
-                                        <div class="progress">
-                                            <div class="progress-in" style="width: 75%;"></div>
-                                            <div class="skill-precentage"></div>
-                                        </div>
-                                    </div>
-                                    <div class="skill-item padd-15">
-                                        <h5>JavaScript</h5>
-                                        <div class="progress">
-                                            <div class="progress-in" style="width: 70%;"></div>
-                                            <div class="skill-precentage"></div>
-                                        </div>
-                                    </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="education padd-15">
-                                <h3 class="title">Education</h3>
-                                <div class="row">
-                                    <div class="timeline-box padd-15">
-                                        <div class="timeline shadow-dark">
-                                            <!-- === timeline item === -->
-                                            <div class="timeline-item">
-                                                <div class="circle-dot"></div>
-                                                <h3 class="timeline-date">
-                                                    <i class="fa fa-calendar"></i> 2019 - 2021
-                                                </h3>
-                                                <h4 class="timeline-title">Masters In Computer Science</h4>
-                                                <p class="timeline-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit quod doloribus officiis nulla ipsa, error esse totam neque eaque cupiditate et at voluptates minima incidunt.</p>
+                                <div class="skills padd-30">
+                                    <div class="row">
+                                        <div class="skill-item padd-30">
+                                            <h5>HTML5</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 95%;"></div>
+                                                <div class="skill-precentage"></div>
                                             </div>
-                                             <!-- === timeline item === -->
-                                             <div class="timeline-item">
-                                                <div class="circle-dot"></div>
-                                                <h3 class="timeline-date">
-                                                    <i class="fa fa-calendar"></i> 2019 - 2021
-                                                </h3>
-                                                <h4 class="timeline-title">Masters In Computer Science</h4>
-                                                <p class="timeline-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit quod doloribus officiis nulla ipsa, error esse totam neque eaque cupiditate et at voluptates minima incidunt.</p>
+                                        </div>
+                                        <div class="skill-item padd-30">
+                                            <h5>CSS3</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 82%;"></div>
+                                                <div class="skill-precentage"></div>
                                             </div>
-                                             <!-- === timeline item === -->
-                                             <div class="timeline-item">
-                                                <div class="circle-dot"></div>
-                                                <h3 class="timeline-date">
-                                                    <i class="fa fa-calendar"></i> 2019 - 2021
-                                                </h3>
-                                                <h4 class="timeline-title">Masters In Computer Science</h4>
-                                                <p class="timeline-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit quod doloribus officiis nulla ipsa, error esse totam neque eaque cupiditate et at voluptates minima incidunt.</p>
+                                        </div>
+                                        <div class="skill-item padd-30">
+                                            <h5>BOOTSTRAP3</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 75%;"></div>
+                                                <div class="skill-precentage"></div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-item padd-30">
+                                            <h5>JavaScript</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 70%;"></div>
+                                                <div class="skill-precentage"></div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="experience padd-15 ">
-                                <h3 class="title">Experience</h3>
-                                <div class="row">
-                                    <div class="timeline-box padd-15">
-                                        <div class="timeline shadow-dark">
-                                            <!-- === timeline item === -->
-                                            <div class="timeline-item">
-                                                <div class="circle-dot"></div>
-                                                <h3 class="timeline-date">
-                                                    <i class="fa fa-calendar"></i> 2019 - 2021
-                                                </h3>
-                                                <h4 class="timeline-title">Masters In Computer Science</h4>
-                                                <p class="timeline-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit quod doloribus officiis nulla ipsa, error esse totam neque eaque cupiditate et at voluptates minima incidunt.</p>
+                            <div class="row">
+                                <div class="education padd-30">
+                                    <h3 class="title">Education</h3>
+                                    <div class="row">
+                                        <div class="timeline-box padd-30">
+                                            <div class="timeline shadow-dark">
+                                                <!-- === timeline item === -->
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timeline-date">
+                                                        <i class="fa fa-calendar"></i> 2019 - 2021
+                                                    </h3>
+                                                    <h4 class="timeline-title">Masters In Computer Science</h4>
+                                                    <p class="timeline-text">Lorem ipsum dolor sit amet consectetur
+                                                        adipisicing elit. Suscipit quod doloribus officiis nulla ipsa,
+                                                        error esse totam neque eaque cupiditate et at voluptates minima
+                                                        incidunt.</p>
+                                                </div>
+                                                <!-- === timeline item === -->
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timeline-date">
+                                                        <i class="fa fa-calendar"></i> 2019 - 2021
+                                                    </h3>
+                                                    <h4 class="timeline-title">Masters In Computer Science</h4>
+                                                    <p class="timeline-text">Lorem ipsum dolor sit amet consectetur
+                                                        adipisicing elit. Suscipit quod doloribus officiis nulla ipsa,
+                                                        error esse totam neque eaque cupiditate et at voluptates minima
+                                                        incidunt.</p>
+                                                </div>
+                                                <!-- === timeline item === -->
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timeline-date">
+                                                        <i class="fa fa-calendar"></i> 2019 - 2021
+                                                    </h3>
+                                                    <h4 class="timeline-title">Masters In Computer Science</h4>
+                                                    <p class="timeline-text">Lorem ipsum dolor sit amet consectetur
+                                                        adipisicing elit. Suscipit quod doloribus officiis nulla ipsa,
+                                                        error esse totam neque eaque cupiditate et at voluptates minima
+                                                        incidunt.</p>
+                                                </div>
                                             </div>
-                                             <!-- === timeline item === -->
-                                             <div class="timeline-item">
-                                                <div class="circle-dot"></div>
-                                                <h3 class="timeline-date">
-                                                    <i class="fa fa-calendar"></i> 2019 - 2021
-                                                </h3>
-                                                <h4 class="timeline-title">Masters In Computer Science</h4>
-                                                <p class="timeline-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit quod doloribus officiis nulla ipsa, error esse totam neque eaque cupiditate et at voluptates minima incidunt.</p>
-                                            </div>
-                                             <!-- === timeline item === -->
-                                             <div class="timeline-item">
-                                                <div class="circle-dot"></div>
-                                                <h3 class="timeline-date">
-                                                    <i class="fa fa-calendar"></i> 2019 - 2021
-                                                </h3>
-                                                <h4 class="timeline-title">Masters In Computer Science</h4>
-                                                <p class="timeline-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit quod doloribus officiis nulla ipsa, error esse totam neque eaque cupiditate et at voluptates minima incidunt.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="experience padd-30 ">
+                                    <h3 class="title">Experience</h3>
+                                    <div class="row">
+                                        <div class="timeline-box padd-30">
+                                            <div class="timeline shadow-dark">
+                                                <!-- === timeline item === -->
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timeline-date">
+                                                        <i class="fa fa-calendar"></i> 2019 - 2021
+                                                    </h3>
+                                                    <h4 class="timeline-title">Masters In Computer Science</h4>
+                                                    <p class="timeline-text">Lorem ipsum dolor sit amet consectetur
+                                                        adipisicing elit. Suscipit quod doloribus officiis nulla ipsa,
+                                                        error esse totam neque eaque cupiditate et at voluptates minima
+                                                        incidunt.</p>
+                                                </div>
+                                                <!-- === timeline item === -->
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timeline-date">
+                                                        <i class="fa fa-calendar"></i> 2019 - 2021
+                                                    </h3>
+                                                    <h4 class="timeline-title">Masters In Computer Science</h4>
+                                                    <p class="timeline-text">Lorem ipsum dolor sit amet consectetur
+                                                        adipisicing elit. Suscipit quod doloribus officiis nulla ipsa,
+                                                        error esse totam neque eaque cupiditate et at voluptates minima
+                                                        incidunt.</p>
+                                                </div>
+                                                <!-- === timeline item === -->
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timeline-date">
+                                                        <i class="fa fa-calendar"></i> 2019 - 2021
+                                                    </h3>
+                                                    <h4 class="timeline-title">Masters In Computer Science</h4>
+                                                    <p class="timeline-text">Lorem ipsum dolor sit amet consectetur
+                                                        adipisicing elit. Suscipit quod doloribus officiis nulla ipsa,
+                                                        error esse totam neque eaque cupiditate et at voluptates minima
+                                                        incidunt.</p>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -211,50 +246,52 @@
                         </div>
                     </div>
                 </div>
-            </div>
-           </section>
+            </section>
 
             <!-- ===== About Section End ===== -->
 
             <!-- ===== Services Section Start ===== -->
-            <section class="service section hidden">
+            <section class="service section" id="services">
                 <div class="container">
                     <div class="row">
-                        <div class="section-title padd-15">
+                        <div class="section-title padd-30">
                             <h2>Services</h2>
                         </div>
                     </div>
                     <div class="row">
                         <!-- ===== Service item Start ===== -->
-                        <div class="service-item padd-15">
+                        <div class="service-item padd-30">
                             <div class="service-item-inner">
                                 <div class="icon">
                                     <i class="fa fa-mobile-alt"></i>
                                 </div>
                                 <h4>Web Development</h4>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, aspernatur eius. Saepe ipsam provident eaque.</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, aspernatur eius.
+                                    Saepe ipsam provident eaque.</p>
                             </div>
                         </div>
                         <!-- ===== Service item End ===== -->
-                         <!-- ===== Service item Start ===== -->
-                         <div class="service-item padd-15">
+                        <!-- ===== Service item Start ===== -->
+                        <div class="service-item padd-30">
                             <div class="service-item-inner">
                                 <div class="icon">
                                     <i class="fa fa-laptop-code"></i>
                                 </div>
                                 <h4>Software Engineering</h4>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, aspernatur eius. Saepe ipsam provident eaque.</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, aspernatur eius.
+                                    Saepe ipsam provident eaque.</p>
                             </div>
                         </div>
                         <!-- ===== Service item End ===== -->
-                         <!-- ===== Service item Start ===== -->
-                         <div class="service-item padd-15">
+                        <!-- ===== Service item Start ===== -->
+                        <div class="service-item padd-30">
                             <div class="service-item-inner">
                                 <div class="icon">
                                     <i class="fa fa-house-laptop"></i>
                                 </div>
                                 <h4>Freelancing</h4>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, aspernatur eius. Saepe ipsam provident eaque.</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, aspernatur eius.
+                                    Saepe ipsam provident eaque.</p>
                             </div>
                         </div>
                         <!-- ===== Service item End ===== -->
@@ -265,21 +302,21 @@
 
             <!-- ===== Projects Section Start ===== -->
 
-            <section class="projects section">
+            <section class="projects section" id="projects">
                 <div class="container">
                     <div class="row">
-                        <div class="section-title padd-15">
+                        <div class="section-title padd-30">
                             <h2>Projects</h2>
                         </div>
                     </div>
                     <div class="row">
-                        <div class="projects-heading padd-15">
+                        <div class="projects-heading padd-30">
                             <h2>My Projects</h2>
                         </div>
                     </div>
                     <div class="row">
                         <!-- ===== Projects item Start ===== -->
-                        <div class="projects-item padd-15">
+                        <div class="projects-item padd-30">
                             <div class="projects-item-inner shadow-dark">
                                 <div class="projects-img">
                                     <img src="/images/My-Projects/drum-kit.png" alt="drum-kit-player">
@@ -288,7 +325,7 @@
                         </div>
                         <!-- ===== Projects item End ===== -->
                         <!-- ===== Projects item Start ===== -->
-                        <div class="projects-item padd-15">
+                        <div class="projects-item padd-30">
                             <div class="projects-item-inner shadow-dark">
                                 <div class="projects-img">
                                     <img src="/images/My-Projects/simons-game.png" alt="simons-game">
@@ -297,7 +334,7 @@
                         </div>
                         <!-- ===== Projects item End ===== -->
                         <!-- ===== Projects item Start ===== -->
-                        <div class="projects-item padd-15">
+                        <div class="projects-item padd-30">
                             <div class="projects-item-inner shadow-dark">
                                 <div class="projects-img">
                                     <img src="/images/My-Projects/dice-game.png" alt="dice-game">
@@ -306,7 +343,7 @@
                         </div>
                         <!-- ===== Projects item End ===== -->
                         <!-- ===== Projects item Start ===== -->
-                        <div class="projects-item padd-15">
+                        <div class="projects-item padd-30">
                             <div class="projects-item-inner shadow-dark">
                                 <div class="projects-img">
                                     <img src="/images/My-Projects/tindog-website.png" alt="tindog-website">
@@ -315,7 +352,7 @@
                         </div>
                         <!-- ===== Projects item End ===== -->
                         <!-- ===== Projects item Start ===== -->
-                        <!-- <div class="projects-item padd-15">
+                        <!-- <div class="projects-item padd-30">
                             <div class="projects-item-inner shadow-dark">
                                 <div class="projects-img">
                                     <img src="/images/My-Projects/" alt="">
@@ -324,32 +361,130 @@
                         </div> -->
                         <!-- ===== Projects item End ===== -->
                         <!-- ===== Projects item Start ===== -->
-                        <!-- <div class="projects-item padd-15">
+                        <!-- <div class="projects-item padd-30">
                             <div class="projects-item-inner shadow-dark">
                                 <div class="projects-img">
                                     <img src="/images/My-Projects/" alt="">
                                 </div>
                             </div>
                         </div> -->
+
                         <!-- ===== Projects item End ===== -->
+
                     </div>
                 </div>
             </section>
 
             <!-- ===== Projects Section End ===== -->
 
+            <!-- ===== Contact Section Start ===== -->
+            <section class="contact section" id="contact">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title padd-30">
+                            <h2>Contact</h2>
+                        </div>
+                    </div>
+                    <h3 class="contact-title">Contact Me for your next project</h3>
+                    <h3 class="contact-sub-title">Satisfaction Guranteed</h3>
+                    <div class="row">
+                        <!-- ===== Contact info item Start ===== -->
+                        <div class="contact-info-item padd-30">
+                            <div class="icon"><i class="fa fa-phone"></i></div>
+                            <h3>Phone No:</h3>
+                            <p>+1 832-335-6277</p>
+                        </div>
+                        <!-- ===== Contact info item End ===== -->
+                        <!-- ===== Contact info item Start ===== -->
+                        <div class="contact-info-item padd-30">
+                            <div class="icon"><i class="fa fa-envelope"></i></div>
+                            <h3>Email</h3>
+                            <p>Mohammadali0326@gmail.com</p>
+                        </div>
+                        <!-- ===== Contact info item End ===== -->
+                        <!-- ===== Contact info item Start ===== -->
+                        <div class="contact-info-item padd-30">
+                            <div class="icon"><i class="fa fa-globe-europe"></i></div>
+                            <h3>Website</h3>
+                            <p>under construction</p>
+                        </div>
+                        <!-- ===== Contact info item End ===== -->
+                    </div>
+                    <h3 class="contact-title">Email Me Now</h3>
+                    <h3 class="contact-sub-title">Will respond ASAP!</h3>
+                    <!-- ===== Contact Form ===== -->
+                    <div class="row">
+                        <div class="contact-form padd-30">
+                            <div class="row">
+                                <div class="form-item col-6 padd-30">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" placeholder="Name">
+                                    </div>
+                                </div>
+                                <div class="form-item col-6 padd-30">
+                                    <div class="form-group">
+                                        <input type="email" class="form-control" placeholder="Email">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-item col-12 padd-30">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" placeholder="Subject">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-item col-12 padd-30">
+                                    <div class="form-group">
+                                        <textarea name="" class="form-control" id="" placeholder="Message"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-item col-12 padd-30">
+                                    <button type="submit" class="btn">Send Message</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ===== Contact Section End ===== -->
+
         </div>
+
         <!-- ===== Main Content End ===== -->
+
     </div>
-
-
-
 
     <!-- ====== Main Container End ===== -->
 
+    <!-- ====== Style Switcher Start ===== -->
+    <div class="style-switcher">
+        <div class="style-switcher-toggler s-icon">
+            <i class="fas fa-cog fa-spin"></i>
+        </div>
+        <div class="day-night s-icon">
+            <i class="fas"></i>
+        </div>
+        <h4>Theme Colors</h4>
+        <div class="colors">
+            <span class="color-1" onclick="setActiveStyle('color-1')"></span>
+            <span class="color-2" onclick="setActiveStyle('color-2')"></span>
+            <span class="color-3" onclick="setActiveStyle('color-3')"></span>
+            <span class="color-4" onclick="setActiveStyle('color-4')"></span>
+            <span class="color-5" onclick="setActiveStyle('color-5')"></span>
+        </div>
+    </div>
+    <!-- ====== Style Switcher End ===== -->
 
     <!-- JS FILES -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js" referrerpolicy="no-referrer">
+    </script>
     <script src="/js/app.js"></script>
+    <script src="/js/style-switcher.js"></script>
 </body>
 
 </html>
