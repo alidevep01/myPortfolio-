@@ -761,7 +761,7 @@ h3.my-profession {
     padding: 0 50px;
 }
 
-@media (max-width:1199px) {
+@media only screen and (max-width:1199px) {
     .aside {
         left: -270px;
     }
@@ -798,7 +798,7 @@ h3.my-profession {
 
 }
 
-@media (max-width:991px) {
+@media only screen and (max-width:991px) {
 
     .home .home-img,
     .about .about-content .personal-info,
@@ -838,7 +838,7 @@ h3.my-profession {
 
 }
 
-@media (max-width:767px) {
+@media only screen and (max-width:767px) {
 
     .contact .contact-form .col-6,
     .projects .projects-item {
@@ -853,4 +853,14 @@ h3.my-profession {
         right: 20%;
     }
 
+}
+
+@media only screen and (max-width:440px) and (min-width: 320px) {
+    .home-img::before {
+        left: 10%;
+    }
+
+    .home-img::after {
+        right: 10%;
+    }
 }
