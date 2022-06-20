@@ -819,11 +819,11 @@ h3.my-profession {
     }
 
     .home-img::before {
-        left: 30%;
+        left: 25%;
     }
 
     .home-img::after {
-        right: 30%;
+        right: 25%;
     }
 
     .projects .projects-item {
@@ -846,11 +846,11 @@ h3.my-profession {
         max-width: 100%;
     }
     .home-img::before {
-        left: 20%;
+        left: 15%;
     }
 
     .home-img::after {
-        right: 20%;
+        right: 15%;
     }
 
 }
