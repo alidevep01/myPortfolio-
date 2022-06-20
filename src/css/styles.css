@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Poppins:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Cookie&family=Poppins:wght@200;300;400;500;600;700&display=swap');
 
 :root {
     --big-black-900: #f2f2f2;
@@ -56,7 +56,7 @@ ul {
 }
 
 .section.back-section {
-    z-index: 1 ;
+    z-index: 1;
 }
 
 .section.active {
@@ -69,6 +69,7 @@ ul {
     0% {
         transform: translateX(100%);
     }
+
     100% {
         transform: translateX(0%);
     }
@@ -184,7 +185,7 @@ ul {
 
 .aside .logo a {
     color: var(--text-black-900);
-    font-weight: 700;
+    font-weight: 800;
     padding: 15px 20px;
     font-size: 25px;
     letter-spacing: 2px;
@@ -192,9 +193,16 @@ ul {
 }
 
 .aside .logo a span {
-    font-family: 'clicker script', cursive;
+    font-family: 'Clicker Script', cursive;
     font-size: 40px;
 }
+
+.aside .logo a span.aLetter {
+    color: var(--skin-color);
+    
+
+}
+
 
 .aside .logo a::before {
     content: '';
@@ -359,7 +367,7 @@ h3.my-profession {
     width: 80px;
     border-top: 10px solid var(--skin-color);
     border-left: 10px solid var(--skin-color);
-    left: 12%;
+    left: 0;
     top: -12%;
 }
 
@@ -370,7 +378,7 @@ h3.my-profession {
     width: 80px;
     border-bottom: 10px solid var(--skin-color);
     border-right: 10px solid var(--skin-color);
-    right: 12%;
+    right: 0;
     bottom: -12%;
 }
 
@@ -772,7 +780,7 @@ h3.my-profession {
 
     .aside .nav-toggler {
         display: flex;
-        left: 30px; 
+        left: 30px;
     }
 
     .aside .nav-toggler.open {
@@ -845,6 +853,7 @@ h3.my-profession {
         flex: 0 0 100%;
         max-width: 100%;
     }
+
     .home-img::before {
         left: 15%;
     }
