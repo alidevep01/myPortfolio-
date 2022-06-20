@@ -435,13 +435,14 @@ h3.my-profession {
     padding: 10px 0;
     font-size: 16px;
     color: var(--text-black-900);
-    border-bottom: 1px solid var(--bg-black-50);
+    /* border-bottom: 1px solid var(--bg-black-50); */
 }
 
-.about .about-content .personal-info .info-item p span {
+.about .about-content .personal-info .info-item p span,  
+.about .about-content .personal-info .info-item p span a {
     font-weight: 400;
     color: var(--text-black-700);
-    margin-left: 4px;
+    margin-left: 1px;
     display: inline-block;
 }
 
@@ -568,7 +569,8 @@ h3.my-profession {
     color: var(--text-black-900);
 }
 
-.about .about-content .timeline .timeline-text {
+.about .about-content .timeline .timeline-text,
+.about .about-content .timeline .timeline-item ol {
     line-height: 25px;
     font-size: 16px;
     text-align: justify;
@@ -849,7 +851,8 @@ h3.my-profession {
 @media only screen and (max-width:767px) {
 
     .contact .contact-form .col-6,
-    .projects .projects-item {
+    .projects .projects-item,
+    .about .about-content .personal-info .info-item {
         flex: 0 0 100%;
         max-width: 100%;
     }
