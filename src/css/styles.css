@@ -359,8 +359,8 @@ h3.my-profession {
     width: 80px;
     border-top: 10px solid var(--skin-color);
     border-left: 10px solid var(--skin-color);
-    left: 40px;
-    top: -40px;
+    left: 12%;
+    top: -12%;
 }
 
 .home-img::after {
@@ -370,8 +370,8 @@ h3.my-profession {
     width: 80px;
     border-bottom: 10px solid var(--skin-color);
     border-right: 10px solid var(--skin-color);
-    right: 40px;
-    bottom: -40px;
+    right: 12%;
+    bottom: -12%;
 }
 
 .home .home-img img {
@@ -819,11 +819,11 @@ h3.my-profession {
     }
 
     .home-img::before {
-        left: 20rem;
+        left: 30%;
     }
 
     .home-img::after {
-        right: 20rem;
+        right: 30%;
     }
 
     .projects .projects-item {
@@ -845,4 +845,12 @@ h3.my-profession {
         flex: 0 0 100%;
         max-width: 100%;
     }
+    .home-img::before {
+        left: 20%;
+    }
+
+    .home-img::after {
+        right: 20%;
+    }
+
 }
