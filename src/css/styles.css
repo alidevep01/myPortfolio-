@@ -35,10 +35,6 @@ body {
     box-sizing: border-box;
 }
 
-ul {
-    list-style: none;
-}
-
 .section {
     background-color: var(--big-black-900);
     min-height: 100vh;
@@ -224,6 +220,10 @@ ul {
     border-right: 5px solid var(--skin-color);
     top: 0;
     right: 0;
+}
+
+ul .nav {
+    list-style: none;
 }
 
 .aside .nav-toggler {
@@ -570,7 +570,7 @@ h3.my-profession {
 }
 
 .about .about-content .timeline .timeline-text,
-.about .about-content .timeline .timeline-item ol {
+.about .about-content .timeline .timeline-item ul {
     line-height: 25px;
     font-size: 16px;
     text-align: justify;
