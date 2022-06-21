@@ -47,7 +47,7 @@ body {
     bottom: 0;
     z-index: 0;
     overflow-y: auto;
-    overflow-x: auto;
+    overflow-x: hidden;
     transition: all 0.3s ease;
 }
 
@@ -371,7 +371,8 @@ h3.my-profession {
     border-top: 10px solid var(--skin-color);
     border-left: 10px solid var(--skin-color);
     left: 0;
-    top: -12%;
+    top: -20%;
+    margin: 20px;
 }
 
 .home-img::after {
@@ -382,7 +383,8 @@ h3.my-profession {
     border-bottom: 10px solid var(--skin-color);
     border-right: 10px solid var(--skin-color);
     right: 0;
-    bottom: -12%;
+    bottom: -20%;
+    margin: 20px;
 }
 
 .home .home-img img {
