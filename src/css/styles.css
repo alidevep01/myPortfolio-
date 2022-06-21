@@ -573,7 +573,7 @@ h3.my-profession {
 .about .about-content .timeline .timeline-item ul {
     line-height: 25px;
     font-size: 16px;
-    text-align: justify;
+    text-align: left;
     color: var(--text-black-700);
 }
 
@@ -676,7 +676,7 @@ h3.my-profession {
 .projects .projects-item-inner .projects-img img {
 
     height: 250px;
-    width: 330px;
+    width: 310px;
     display: block;
 }
 
@@ -795,6 +795,7 @@ h3.my-profession {
 
     .section .container {
         padding-top: 70px;
+        margin-bottom: 40px;
     }
 
     .section.open {
