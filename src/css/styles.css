@@ -198,7 +198,7 @@ body {
 
 .aside .logo a span.aLetter {
     color: var(--skin-color);
-    
+
 
 }
 
@@ -443,7 +443,7 @@ h3.my-profession {
     /* border-bottom: 1px solid var(--bg-black-50); */
 }
 
-.about .about-content .personal-info .info-item p span,  
+.about .about-content .personal-info .info-item p span,
 .about .about-content .personal-info .info-item p span a {
     font-weight: 400;
     color: var(--text-black-700);
@@ -506,9 +506,19 @@ h3.my-profession {
 
 .about .about-content h3.title {
     font-size: 24px;
-    margin-top: 30px;
+    margin: 30px 0 30px 20px;
     font-weight: 700;
     color: var(--text-black-900);
+}
+
+.about .about-content h3.title::after {
+    content: "";
+    height: 4px;
+    width: 50px;
+    border-bottom: 4px solid var(--skin-color);
+    position: absolute;
+    margin-top: 45px;
+    margin-left: -125px;
 }
 
 .about .about-content .timeline-box {
@@ -594,8 +604,7 @@ h3.my-profession {
     max-width: 100%;
 }
 
-.service .service-item .service-item-inner
- {
+.service .service-item .service-item-inner {
     background-color: var(--big-black-100);
     border: 1px solid var(--bg-black-50);
     border-radius: 10px;
